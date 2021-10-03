@@ -58,3 +58,9 @@ Components:
 ![ClothesListComponent](https://imgur.com/JvZaPoZ.png)
 ### ClothesDetailsComponent
 ![ClothesDetailsComponent](https://imgur.com/C0iaTmi.png)
+
+## client
+Soon
+
+## ng-client
+Soon
