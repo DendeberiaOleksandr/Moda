@@ -49,3 +49,5 @@ Components:
 | clothes  | ClothesListComponent  | List of resources |
 | clothes/{id}  | ClothesDetailsComponent  | Edit form |
 |   | HeaderComponent  | Header for navigating |
+
+### [Header] (https://imgur.com/M2BjmBz)
