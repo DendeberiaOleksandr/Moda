@@ -18,7 +18,12 @@ DELETE api/{version}/clothes/{id}
 
 ```
 
-| First Header  | Second Header |
+| Mapping  | Name |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| GET  | api/{version}/clothes  |
+| GET  | api/{version}/clothes/{id}  |
+| GET  | api/{version}/clothes/size  |
+| POST  | api/{version}/clothes  |
+| PATCH  | api/{version}/clothes/{id}  |
+| DELETE  | api/{version}/clothes  |
+| DELETE  | api/{version}/clothes/{id}  |
