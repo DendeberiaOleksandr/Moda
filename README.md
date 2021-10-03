@@ -8,7 +8,7 @@ This is a web project that contains few modules:
 ## moda-resource-server
 This is rest API written by Spring Framework. It has endpoints:
 
-| Mapping  | Name |
+| Mapping  | Name | |
 | ------------- | ------------- | ------------- |
 | GET  | api/{version}/clothes  | |
 | GET  | api/{version}/clothes/{id}  | |
