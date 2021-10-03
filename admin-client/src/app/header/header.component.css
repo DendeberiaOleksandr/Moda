@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  width: 100%;
+  border: 1px solid #efefef;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  transition: outline 0.3s linear;
+  outline: 1px solid #efefef;
+  color: black;
+}
+
+a:hover {
+  outline-width: 4px;
+}

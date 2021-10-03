@@ -1,0 +1,11 @@
+<div class="grid">
+  <div *ngFor="let cl of clothes" class="grid-item">
+    <a routerLink="">
+      <img [src]="cl.photo" [alt]="cl.name">
+    </a>
+    <div class="grid-item-details">
+      <h3>{{ cl.name }}</h3>
+      <span>{{ cl.cost }}</span>
+    </div>
+  </div>
+</div>

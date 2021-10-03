@@ -1,0 +1,28 @@
+.grid {
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 756px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  width: 225px;
+  max-width: 225px;
+  border: 1px solid #efefef
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-item-details {
+  margin: 10px;
+}
+
+.grid-item-details span {
+  color: #427ed1;
+}

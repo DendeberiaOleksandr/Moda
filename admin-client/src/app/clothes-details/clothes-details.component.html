@@ -1,0 +1,94 @@
+<form [formGroup]="form">
+
+  <div class="form-field">
+    <span class="form-field-header">Preview</span>
+    <input id="preview" formControlName="preview" placeholder="Preview">
+    <span class="text-danger" *ngIf="form.controls['preview'].errors?.required">
+      Preview is required
+    </span>
+  </div>
+
+  <div *ngIf="!samePhotoPreview" class="form-field">
+    <span class="form-field-header">Photo</span>
+    <input [readOnly]="samePhotoPreview" id="photo" formControlName="photo" placeholder="Photo" >
+    <span class="text-danger" *ngIf="form.controls['photo'].errors?.required">
+      Photo is required
+    </span>
+  </div>
+
+  <div class="form-field-checkbox">
+    <span>Same preview and photo</span>
+    <input (change)="onCheckboxChange($event)" [checked]="samePhotoPreview" formControlName="checkbox" id="checkbox" type="checkbox">
+  </div>
+
+  <div class="form-field">
+    <span class="form-field-header">Cost</span>
+    <input id="cost" formControlName="cost" placeholder="Cost">
+    <span class="text-danger" *ngIf="form.controls['cost'].errors?.required">
+      Cost is required
+    </span>
+  </div>
+
+  <div class="form-field">
+    <span class="form-field-header">Brand</span>
+    <input id="brand" formControlName="brand" placeholder="Brand">
+    <span class="text-danger" *ngIf="form.controls['brand'].errors?.required">
+      Brand is required
+    </span>
+  </div>
+
+  <div class="form-field">
+    <span class="form-field-header">Name</span>
+    <input id="name" formControlName="name" placeholder="Name">
+    <span class="text-danger" *ngIf="form.controls['name'].errors?.required">
+      Name is required
+    </span>
+  </div>
+
+  <div class="form-field">
+    <span class="form-field-header">Category</span>
+    <input id="category" formControlName="category" placeholder="Category">
+    <span class="text-danger" *ngIf="form.controls['category'].errors?.required">
+      Category is required
+    </span>
+  </div>
+
+  <div class="form-field" formArrayName="size">
+    <span class="form-field-header">Size</span>
+    <div *ngFor="let size of this.sizeFormArray.controls; let i=index">
+      <input (blur)="onInputBlur($event)" id="size-{{ i }}"
+             formControlName="{{ i }}"
+             placeholder="Size">
+      <span class="text-danger" *ngIf="this.sizeFormArray.controls[i].errors?.required">
+      Size is required
+      </span>
+      <span class="text-danger" *ngIf="this.sizeFormArray.controls[i].errors?.pattern">
+      Size should contain 0-9 . /
+      </span>
+    </div>
+    <div id="add-size" (click)="onAddButtonClick($event)" class="btn-add">
+      +
+    </div>
+  </div>
+
+  <div class="form-field" formArrayName="color">
+    <span class="form-field-header">Color</span>
+    <div *ngFor="let color of this.colorFormArray.controls; let i=index">
+      <input (blur)="onInputBlur($event)" id="color-{{ i }}"
+             formControlName="{{ i }}"
+             placeholder="Color">
+      <span class="text-danger" *ngIf="this.colorFormArray.controls[i].errors?.required">
+      Color is required
+      </span>
+      <span class="text-danger" *ngIf="this.colorFormArray.controls[i].errors?.pattern">
+      Color should contain a-z A-Z -
+      </span>
+    </div>
+    <div id="add-color" (click)="onAddButtonClick($event)" class="btn-add">
+      +
+    </div>
+  </div>
+
+  <input (click)="onSaveButtonClick()" type="submit" value="Save">
+</form>
+

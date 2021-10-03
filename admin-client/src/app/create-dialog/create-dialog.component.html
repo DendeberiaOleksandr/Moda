@@ -1,0 +1,10 @@
+<div class="success" *ngIf="data.status === 'ok'">
+  <fa-icon [icon]="iconOk"></fa-icon>
+  <span>{{ data.text }}</span>
+</div>
+
+<div class="error" *ngIf="data.status !== 'ok'">
+  <fa-icon [icon]="iconError"></fa-icon>
+  <span>{{ data.text }}</span>
+</div>
+

@@ -1,0 +1,7 @@
+com\moda\resource\service\CrudService.class
+com\moda\resource\web\controller\ClothesController.class
+com\moda\resource\persistence\repository\ClothesRepository.class
+com\moda\resource\service\ClothesService.class
+com\moda\resource\persistence\model\Clothes.class
+com\moda\resource\ResourceApplication$1.class
+com\moda\resource\ResourceApplication.class

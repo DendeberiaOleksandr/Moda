@@ -1,0 +1,62 @@
+form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px 40px 20px 20px;
+  border: 1px solid #efefef;
+  border-radius: 25px;
+}
+
+.form-field {
+  margin: 25px 0;
+}
+
+.form-field span, .form-field input {
+  width: 100%;
+  margin: 5px 0;
+  display: block;
+}
+
+.form-field-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form-field-header {
+  font-size: 16px;
+}
+
+.text-danger {
+  color: #ff0e0e;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #efefef;
+}
+
+input[type="submit"] {
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type="submit"]:hover {
+  background: #D3D3D3;
+}
+
+.btn-add {
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  background: #efefef;
+  padding: 5px 10px;
+  transition: .3s;
+}
+
+.btn-add:hover {
+  background: #D3D3D3;
+}
+
+

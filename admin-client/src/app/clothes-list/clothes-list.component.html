@@ -1,0 +1,47 @@
+<table>
+  <tr id="header">
+    <th>Id</th>
+    <th>Photo</th>
+    <th>Name</th>
+    <th>Brand</th>
+    <th>Category</th>
+    <th>Cost</th>
+    <th>Published</th>
+    <th>Size</th>
+    <th>Color</th>
+    <th><input (click)="onCheckboxClick()" type="checkbox"></th>
+    <th (click)="onDeleteButtonClick()"><fa-icon [icon]="iconDelete"></fa-icon></th>
+  </tr>
+  <tr #tableRowElement *ngFor="let cl of clothes">
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ cl.id }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      <img [src]="cl.photo" [alt]="cl.name">
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ cl.name }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ cl.brand }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ cl.category }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ cl.cost }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ (cl.published !== null) ? (cl.published | date:'shortDate') : '' }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ (cl.size !== null) ? (cl.size.join(', ')) : '' }}
+    </td>
+    <td routerLink="/clothes/{{ cl.id }}">
+      {{ (cl.color !== null) ? (cl.color.join(', ')) : '' }}
+    </td>
+    <td>
+      <input [ngModel]="isCheckboxChecked" type="checkbox">
+    </td>
+  </tr>
+</table>

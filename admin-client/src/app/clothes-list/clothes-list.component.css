@@ -1,0 +1,43 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+tr {
+  border: 1px solid #efefef;
+}
+
+td[ng-reflect-router-link] {
+  cursor: pointer;
+}
+
+td, th {
+  border: 1px solid #efefef;
+  padding: 10px;
+
+}
+
+#header {
+  border: 1px solid #D3D3D3;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+img {
+  width: 128px;
+  height: 100%;
+}
+
+fa-icon {
+  cursor: pointer;
+  font-size: 16px;
+  transition: .3s;
+}
+
+fa-icon:hover {
+  color: #D3D3D3;
+}
