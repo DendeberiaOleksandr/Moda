@@ -57,4 +57,4 @@ Components:
 ### ClothesListComponent 
 ![ClothesListComponent](https://imgur.com/JvZaPoZ.png)
 ### ClothesDetailsComponent
-[ClothesDetailsComponent](https://imgur.com/C0iaTmi.png)
+![ClothesDetailsComponent](https://imgur.com/C0iaTmi.png)
