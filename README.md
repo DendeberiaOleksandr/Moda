@@ -50,4 +50,4 @@ Components:
 | clothes/{id}  | ClothesDetailsComponent  | Edit form |
 |   | HeaderComponent  | Header for navigating |
 
-### [Header](https://imgur.com/M2BjmBz)
+### ![Header](https://imgur.com/M2BjmBz)
