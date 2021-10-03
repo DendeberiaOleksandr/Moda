@@ -51,7 +51,7 @@ Components:
 |   | HeaderComponent  | Header for navigating |
 
 ### Header
-![Header](https://imgur.com/M2BjmBz)
+![Header](https://imgur.com/M2BjmBz.png)
 ### [AddClothesComponent](https://imgur.com/WtPnpW7)
 ### [AddClothesComponent 2](https://imgur.com/0o7IKxp)
 ### [ClothesListComponent](https://imgur.com/JvZaPoZ)
