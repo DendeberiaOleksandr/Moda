@@ -17,3 +17,22 @@ This is rest API written by Spring Framework. It has endpoints:
 | PATCH  | api/{version}/clothes/{id}  | Updating resource. Needs request body(update resource), ID of resource  |
 | DELETE  | api/{version}/clothes  | Delete all resources | 
 | DELETE  | api/{version}/clothes/{id}  | Delete resource by id |
+
+The resource looks like Java Object
+
+```java
+
+public class Clothes {
+    private String id;
+    private String category;
+    private String brand;
+    private String name;
+    private Integer cost;
+    private String[] color;
+    private String[] size;
+    private String photo;
+    private String preview;
+    private Date published;
+}
+
+```
