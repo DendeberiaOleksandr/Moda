@@ -5,7 +5,7 @@ This is a web project that contains few modules:
 - client
 - admin-client
 
-*moda-resource-server
+##moda-resource-server
 This is rest API written by Spring Framework. It has endpoints:
 ```
 GET api/{version}/clothes 
