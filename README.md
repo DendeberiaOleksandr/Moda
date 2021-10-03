@@ -54,3 +54,4 @@ Components:
 ### [AddClothesComponent](https://imgur.com/WtPnpW7)
 ### [AddClothesComponent 2](https://imgur.com/0o7IKxp)
 ### [ClothesListComponent](https://imgur.com/JvZaPoZ)
+### ![ClothesListComponent](https://i.imgur.com/JvZaPoZ.png)
