@@ -40,3 +40,12 @@ public class Clothes {
 ## admin-client
 
 Client for administrating the system. It's written by `Angular`.
+
+Components:
+
+| Route       | Name          | Description |
+| ------------- | ------------- | ------------- |
+| clothes/add  | AddClothesComponent  | Post form for adding the resource |
+| clothes  | ClothesListComponent  | List of resources |
+| clothes/{id}  | ClothesDetailsComponent  | Edit form |
+|   | HeaderComponent  | Header for navigating |
