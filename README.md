@@ -56,3 +56,5 @@ Components:
 ![AddClothesComponent 2](https://imgur.com/0o7IKxp.png)
 ### ClothesListComponent 
 ![ClothesListComponent](https://imgur.com/JvZaPoZ.png)
+### ClothesDetailsComponent
+[ClothesDetailsComponent](https://imgur.com/C0iaTmi.png)
