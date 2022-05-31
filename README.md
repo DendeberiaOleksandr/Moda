@@ -2,8 +2,6 @@
 This is a web project that contains few modules: 
 - [moda-resource-server](https://github.com/DendeberiaOleksandr/moda/blob/main/README.md#moda-resource-server)
 - [admin-client](https://github.com/DendeberiaOleksandr/moda/blob/main/README.md#admin-client)
-- [client](https://github.com/DendeberiaOleksandr/moda/blob/main/README.md#client)
-- [ng-client](https://github.com/DendeberiaOleksandr/moda/blob/main/README.md#ng-client)
 
 ## moda-resource-server
 This is rest API written by Spring Framework. It has endpoints:
